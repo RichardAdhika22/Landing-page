@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: darkblue;
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.content{
+    margin-top: 50px;;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.header-links{
+    display: flex;
+}
+
+ul{
+    margin: 0px;
+    list-style: none;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-one{
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.bg{
+    opacity: 0.3;
+    position: absolute; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.fg{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-one-left{
+    max-width: 500px;
+}
+
+.register-button{
+    margin-top: 10px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20%;
+}
+
+.section-one-right{
+    min-width: 300px;
+    height: 200px;
+}
+
+.description{
+    text-align: justify;
+}
+
+.section-two{
+    margin: 20px 0;
+}
+
+.section-two-title{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.topic-image{
+    width: 200px;
+    height: 200px;
+}
+
+.section-two ul{
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-two li{
+    flex: 1;
+}
+
+.section-three{
+    background-color: lightgray;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    display: flex;
+    text-align: justify;
+    font-style: italic;
+    max-width: 1000px;
+    font-weight: 100;
+}
+
+.spokeperson{
+    margin-top: 5px;
+    align-self:last baseline;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.section-four{
+    background-color: #1f2937;
+    margin: 75px;
+    border-radius: 15px;
+    height: 150px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-four .title{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.section-four .description{
+    color: white;
+    font-size: 18px;
+}
+
+.section-four .button{
+    background-color: #1f2937;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.footer{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
